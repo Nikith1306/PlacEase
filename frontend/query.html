@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>How to Align Responsive Image in Center in Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Student</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./query.html">Add Query</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./login.html">Login</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <div>
+      <div class="row">
+        <div class="mx-auto col-10 col-md-8 col-lg-6">
+          <!-- Form -->
+          <form class="form-example" action="" method="post">
+           
+            <!-- Input fields -->
+            <div class="form-group">
+              <label for="username">Student Name or Registration Number</label>
+              <input
+                type="text"
+                class="form-control username"
+                id="username"
+                placeholder="Student Name or Registration Number"
+                name="username"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Email id</label>
+              <input
+                type="text"
+                class="form-control password"
+                id="password"
+                placeholder="EMAIL ID"
+                name="password"
+              />
+            </div>
+            <div class="form-group">
+                <label for = " companytype">Company Type</label>
+                
+                  <select class="form-control">
+                    <option>Super Dream </option>
+                    <option>Dream </option>
+                    <option>Regular </option>
+                  </select>                  
+            </div> 
+            <div class="form-group">
+                <label>Company Name</label>
+                
+                  <select class="form-control">
+                    <option>TCS </option>
+                    <option>Amazon</option>
+                    <option>Deliote</option>
+                    <option>Micro soft</option>
+                    <option>Intel</option>
+                    <option>KPMG</option>
+                    <option>Wipro</option>
+                    <option>Infoysys</option>
+                    <option>Mind Tree</option>
+                  </select>
+                  
+            </div> 
+            <div class="form-group">
+                <label>Query</label>
+                
+                <select class="form-control">
+                  <option>1 </option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+                  
+            </div> 
+
+
+
+            <button type="submit" class="btn btn-primary btn-customized mt-4">
+              Submit
+            </button>
+          </form>
+          <!-- Form end -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
